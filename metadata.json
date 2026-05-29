@@ -1,0 +1,6 @@
+{
+  "name": "MedEquip Pro",
+  "description": "B2B Medical Supply and Laboratory Equipment Procurement Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
