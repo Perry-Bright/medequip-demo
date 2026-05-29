@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { useEffect } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { HomePage } from "./pages/HomePage";
@@ -15,6 +16,10 @@ import { CompliancePage } from "./pages/CompliancePage";
 import { LogisticsPage } from "./pages/LogisticsPage";
 
 export default function App() {
+  useEffect(() => {
+    document.title = "MedEquip Pro";
+  }, []);
+
   return (
     <HashRouter>
       <Layout>
